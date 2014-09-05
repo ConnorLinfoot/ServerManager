@@ -14,7 +14,7 @@ import java.sql.Connection;
 
 public class Main extends JavaPlugin implements Listener {
     private static Plugin instance;
-    static Connection c = null;
+    public static Connection c = null;
 
     com.connorlinfoot.servermanager.MySQL.MySQL MySQL = null;
     public void onEnable() {

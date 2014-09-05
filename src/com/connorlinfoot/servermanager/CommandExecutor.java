@@ -22,7 +22,7 @@ public class CommandExecutor {
                     e.printStackTrace();
                 }
             }
-        }, 0L, 20L); // Add option in config to change this
+        }, 0L, 20L); // TODO Add option in config to change this
     }
 
 }
