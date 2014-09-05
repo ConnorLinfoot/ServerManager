@@ -1,0 +1,6 @@
+Server Name: server01
+MySQL:
+  Host: localhost
+  User: user
+  Pass: pass
+  Name: name

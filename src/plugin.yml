@@ -1,0 +1,6 @@
+name: ServerManager
+description: ServerManager
+main: com.connorlinfoot.servermanager.Main
+version: 0.1
+author: ConnorLinfoot
+website: http://connorlinfoot.com
