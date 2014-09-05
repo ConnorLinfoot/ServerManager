@@ -8,6 +8,7 @@ import java.sql.SQLException;
 public class CommandExecutor {
 
     static void Start(){
+        Long cet = Main.getInstance().getConfig().getInt("Command Executor Time") * 20L;
         Bukkit.getScheduler().scheduleSyncRepeatingTask(Main.getInstance(),new Runnable() {
             @Override
             public void run() {
@@ -22,7 +23,7 @@ public class CommandExecutor {
                     e.printStackTrace();
                 }
             }
-        }, 0L, 20L); // TODO Add option in config to change this
+        }, 0L, cet);
     }
 
 }
